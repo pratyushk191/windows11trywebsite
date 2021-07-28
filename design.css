@@ -1,0 +1,91 @@
+body{
+	background: url('wallpaper.PNG') no-repeat center center/cover;
+	height: 100vh;
+	
+    
+}
+.icons {
+
+
+display: flex;
+    align-items: center;
+    top: 0px;
+}
+.icons ul li{
+	height: 90px;
+	width: 120px;
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+    .icons img{
+height: 90px;
+width: 90px;
+    }
+
+#Nav1{
+width: 90px;
+height: 90px;
+}
+#Nav1:hover{
+border: 2px solid blue;
+}
+
+#nav2{
+	width:90px;
+}
+#nav2:hover{
+border: 2px solid blue;
+}
+#nav3{
+	width: 90px;
+	height:90px; 
+}
+#nav3:hover{
+border: 2px solid blue;
+
+}
+
+#Nav4{
+	width: 90px;
+	height: 90px;
+}
+#Nav4:hover{
+border: 2px solid blue;
+
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+}
+
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}  
+.icons{
+    color: white;
+}
