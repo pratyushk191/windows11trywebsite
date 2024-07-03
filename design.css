@@ -12,16 +12,16 @@ display: flex;
     top: 0px;
 }
 .icons ul li{
-	height: 90px;
-	width: 120px;
+	height: 80px;
+	width: 80px;
 	list-style: none;
 	margin-top: 10px;
 	margin-bottom: 10px;
 
 }
     .icons img{
-height: 90px;
-width: 90px;
+height: 80px;
+width: 80px;
     }
 
 #Nav1{
